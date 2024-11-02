@@ -12,7 +12,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("signUp.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 560, 560);
-        stage.setTitle("Ubuntu!");
+        stage.setTitle("Hola estamos en configuración!");
         stage.setScene(scene);
         stage.show();
     }
