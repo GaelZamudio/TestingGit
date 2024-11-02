@@ -1,4 +1,4 @@
-package com.testing.testinggit;
+package com.testing.testinggit.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
