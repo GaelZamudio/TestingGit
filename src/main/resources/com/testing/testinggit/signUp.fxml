@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.testing.testinggit.controller.SignUpController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <!-- Título del formulario -->
+    <Label text="Sign Up" style="-fx-font-size: 18px;"/>
+
+    <!-- Campo de nombre de usuario -->
+    <Label text="Username:"/>
+    <TextField fx:id="usernameField" promptText="Enter your username"/>
+
+    <!-- Campo de correo electrónico -->
+    <Label text="Email:"/>
+    <TextField fx:id="emailField" promptText="Enter your email"/>
+
+    <!-- Campo de contraseña -->
+    <Label text="Password:"/>
+    <PasswordField fx:id="passwordField" promptText="Enter your password"/>
+
+    <!-- Campo de confirmación de contraseña -->
+    <Label text="Confirm Password:"/>
+    <PasswordField fx:id="confirmPasswordField" promptText="Confirm your password"/>
+
+    <!-- Botón de registro -->
+    <Button text="Sign Up" onAction="#onSignUpButtonClick"/>
+</VBox>
