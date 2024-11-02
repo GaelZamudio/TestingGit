@@ -13,7 +13,7 @@
     </padding>
 
     <!-- Título del formulario -->
-    <Label text="Sign Up" style="-fx-font-size: 18px;"/>
+    <Label text="Registro de Usuario" style="-fx-font-size: 18px;"/>
 
     <!-- Campo de nombre de usuario -->
     <Label text="Username:"/>

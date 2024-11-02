@@ -29,7 +29,7 @@ public class SignUpController {
 
         // Validaciones básicas
         if (username.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
-            showAlert(AlertType.ERROR, "Validation Error", "Please fill in all fields.");
+            showAlert(AlertType.ERROR, "Error de validación", "Please fill in all fields.");
             return;
         }
 
